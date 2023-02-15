@@ -1,15 +1,15 @@
-import classNames from 'classnames';
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { Filter } from '../../components';
-import { menu } from '../../helpers/menu';
-import styles from './Header.module.css';
+import classNames from "classnames";
+import React from "react";
+import { NavLink } from "react-router-dom";
+import { Filter } from "../../components";
+import { menu } from "../../helpers/menu";
+import styles from "./Header.module.css";
 
 export const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={classNames('container', styles.headerContainer)}>
-        <p className={styles.logo}>Logo.</p>
+      <div className={classNames("container", styles.headerContainer)}>
+        <p className={styles.logo}>Your blog</p>
 
         <Filter />
 
